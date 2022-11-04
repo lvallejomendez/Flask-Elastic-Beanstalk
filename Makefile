@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C application.py
 
 deploy:
-	echo "Deploying app"
-	eb deploy hello-env
+	echo flask-continuous-delivery
+	eb deploy flask-continuous-delivery-env
 
 all: install lint test 
